@@ -1,0 +1,15 @@
+public class Node 
+{
+	public Node link;
+	public int data;
+	public Node()
+	{
+		link = null;
+	}
+	public Node(int data)
+	{
+		this.data = data;
+		link = null;
+	}
+	
+}
